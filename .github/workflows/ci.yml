@@ -16,6 +16,7 @@ jobs:
       - run: awesome-lint README.md
     #
     # - run: sudo apt install -y ruby
+    fetch-depth: 0 # fetch all history to avoid git-repo-age false negative
     # - run: sudo gem install awesome_bot
     # # Allow redirect for awesome.re
     # - run: awesome_bot --white-list https://awesome.re,https://portal.nersc.gov/project/sparse/superlu/ README.md
